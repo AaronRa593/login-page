@@ -5,13 +5,14 @@ body{
     min-height: 100vh;
     align-items: center;
     background-image: url(imgs/blue-sky-half-moon-crescent-moon-clouds-star-trails-5k-3840x2160-8404.png);
-    background-size: 100%;
+    background-size: cover;
     color: white;
 }
 
 h1{
     font-size: 40px;
     text-align: center;
+    font-family: "Archivo Black", sans-serif;
 }
  
 .Login{
@@ -24,18 +25,19 @@ h1{
 }
 
 .input-box{
+    font-family: "Cinzel", serif;
     margin-bottom: 30px;
-    font-family:  "Raleway", sans-serif;
 }
 
 .info{
-    border: 2px solid white;
-    border-radius: 10px;
+    font-family: "Literata", serif;
+    border: none;
+    border-bottom: 2px solid white;
     background-color: transparent;
     width: 50vw;
     padding: 6px;
 }
 
-footer{
-    background-color: rgb(181, 116, 241);
+::placeholder{
+    color: black;
 }
