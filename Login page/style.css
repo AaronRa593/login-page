@@ -4,20 +4,25 @@ body{
     justify-content: center;
     min-height: 100vh;
     align-items: center;
-    background-image: url(imgs/blue-sky-half-moon-crescent-moon-clouds-star-trails-5k-3840x2160-8404.png);
+    background-image: url(imgs/desktop-wallpaper-digital-art-artwork-minimalism-mountains-birds-stars-sky-1920x1080.jpg);
     background-size: cover;
     color: white;
+}
+
+::placeholder {
+    color: white;
+    border: none;
+    font-size: 10px;
 }
 
 .fondo{
     border: solid 2px white;
     border-radius: 20px;
-    width: 30vw;
+    width: 450px;
     height: 35em;
     padding: 10px;
-    box-shadow: 5px 5px 10px 7px white;
+    box-shadow: 1px 1px 15px 8px white;
     backdrop-filter: blur(10px);
-
 }
 
 .fondo h1{
@@ -28,13 +33,37 @@ body{
 }
 
 .datos .usuario{
+    position: relative;
     background-color: transparent;
     margin: 30px;
     margin-left: 10px;
     width: 90%;
     padding: 10px;
     border: solid 2px white;
-    border-radius: 15px;
-   
+    border-radius: 25px;
+}
+
+.submit{
+    font-weight: bold;
+    color: white;
+    width: 12vw;
+    background-color: transparent;
+    padding: 10px;
+    margin: 15px;
+    border-radius: 20px;
+    border: solid 2px white;
     
+}
+
+ .datos i{
+    position: absolute;
+    left: 40px;
+    font-size: 25px;
+}
+
+.send i{
+    position: absolute;
+    left: 40px;
+    bottom: 116px;
+    font-size: 25px;
 }
