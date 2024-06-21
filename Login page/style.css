@@ -11,17 +11,16 @@ body{
 
 ::placeholder {
     color: white;
-    border: none;
     font-size: 10px;
 }
 
 .fondo{
     border: solid 2px white;
     border-radius: 20px;
+    box-shadow: 1px 1px 15px 8px rgb(255, 255, 255);
     width: 450px;
     height: 35em;
     padding: 10px;
-    box-shadow: 1px 1px 15px 8px white;
     backdrop-filter: blur(10px);
 }
 
@@ -50,9 +49,8 @@ body{
     background-color: transparent;
     padding: 10px;
     margin: 15px;
+    border: none;
     border-radius: 20px;
-    border: solid 2px white;
-    
 }
 
  .datos i{
@@ -66,4 +64,12 @@ body{
     left: 40px;
     bottom: 116px;
     font-size: 25px;
+}
+
+/*Animaciones*/
+
+.submit:hover{
+    transition: 2s;
+    border: solid 1px white;
+    background-color: rgba(209, 207, 207, 0.379);    
 }
